@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type"
 content="text/html; charset=iso-8859-1">
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
-<title>CyberBoard(tm) Release Notes</title>
+<title>CyberBoard&trade; Release Notes</title>
 </head>
 
 <body bgcolor="#FFFFFF" text="#000000" link="#0000FF"
@@ -15,6 +15,64 @@ Release Notes</font></h1>
 
 <p align="center"><a href="cyberboard.html"><font color="#800000"
 size="2">[Return to CyberBoard Page]</font></a></p>
+
+<h2>Version 2.00 Release</h2>
+
+<h3>New features for CBDesign.exe:</h3>
+<ul>
+  <li>GameBox files now support internal compression of bitmap images. 
+      The GameBox file size can now be greatly reduced. Multiple levels
+      of compress are supported.</li>
+  <li>GameBox files may now be password protected.</li>
+  <li>The list of files recently opened (the so called LRU list) has 
+      been increased to ten.</li>
+  <li>When defining playing pieces there is an option allowing only the top 
+      (active) side of a playing piece to be visible in select lists and
+      piece trays while playing a game. This is intended for implementing 
+      playing cards.</li>
+  <li>Top drawing layer objects now have the option to be drawn above the 
+      grid. They are rendered in a second pass after drawing the grid. 
+      This allows tables and such to be placed on the board and still 
+      have the grid on top of some terrain features that are drawn using 
+      lines and polygons.</li>
+</ul>
+
+<h3>New features for CBPlay.exe:</h3>
+<ul>
+  <li>Ability to associate text with pieces and markers.</li>
+  <li>Ability to rotate markers.</li>
+  <li>Piece and markers can now be locked so they can't be selected.</li>
+  <li>Supports geomorphic construction of boards having hex style cells.</li>
+  <li>Supports shuffling (randomizing) pieces in trays and on the 
+      playing board. One application would be for playing cards.</li>
+  <li>The game player program now remembers layout of open 
+      windows in a game or scenario. The layout is restored when the 
+      file is reloaded.</li>
+  <li>Playing piece and maker trays now support several visibility 
+      and behavior options.</li>
+  <li>If you drag a marker out of a group that is set to deliver random 
+      markers AND you hold the CTRL key when the mouse button is released, 
+      you will be prompted for the number of random markers to be created. 
+      This is great for actually "rolling" dice. Say a 5D6 where the 
+      marker set is the six faces of a six sided die. This feature would 
+      also be great for games that use pictures rather than numbers for
+      die faces.</li>
+  <li>The board's selection list now includes markers.</li>
+  <li>The board's selection list supports the use of the "Insert" and 
+      "Delete" keys. These keys can be used selective remove objects 
+      from the selection list. "Insert" keeps those highlighted in the 
+      list. "Delete" removes those highlighted in the list.</li>
+  <li>Markers now stack just like pieces.</li>
+  <li>New "Auto Stack Deck" command that is used to stack selected items 
+      using stagger values of zero.</li>
+  <li>Toolbar buttons for plotted moves.</li>
+  <li>The list of files recently opened (the so called LRU list) has 
+      been increased to ten.</li>
+  <li>The full path of the GameBox file is now stored in the Game file 
+      so the GameBox can be in different areas of the file system than 
+      the game file. This prevents your being prompted for its location 
+      when loading the game.</li>
+</ul>
 
 <h2>Version 1.12 Release</h2>
 
